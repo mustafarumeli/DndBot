@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Bson" Version="2.12.4" />
+    <PackageReference Include="MongoDB.Driver" Version="2.12.4" />
+    <PackageReference Include="MongoDB.Driver.Core" Version="2.12.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DndBot.Entities\DndBot.Entities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MongoORM4NetCore">
+      <HintPath>..\..\..\Desktop\MongoORM4NetCore\bin\Debug\net5.0\MongoORM4NetCore.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

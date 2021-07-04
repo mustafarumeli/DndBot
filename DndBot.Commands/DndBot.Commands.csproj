@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DndBot.Abstraction\DndBot.Abstraction.csproj" />
+    <ProjectReference Include="..\DndBot.Entities\DndBot.Entities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DSharpPlus">
+      <HintPath>..\..\..\Desktop\Example-Bots\DSPlus.Examples.CSharp.Ex02\bin\Debug\net5.0\DSharpPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="DSharpPlus.CommandsNext">
+      <HintPath>..\..\..\Desktop\Example-Bots\DSPlus.Examples.CSharp.Ex02\bin\Debug\net5.0\DSharpPlus.CommandsNext.dll</HintPath>
+    </Reference>
+    <Reference Include="Emzi0767.Common">
+      <HintPath>..\..\..\Desktop\Example-Bots\DSPlus.Examples.CSharp.Ex02\bin\Debug\net5.0\Emzi0767.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoORM4NetCore">
+      <HintPath>..\..\..\Desktop\MongoORM4NetCore\bin\Debug\net5.0\MongoORM4NetCore.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

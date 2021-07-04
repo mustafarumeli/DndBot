@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="MongoORM4NetCore">
+      <HintPath>..\..\..\Desktop\MongoORM4NetCore\bin\Debug\net5.0\MongoORM4NetCore.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
